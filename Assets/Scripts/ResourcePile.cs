@@ -10,7 +10,16 @@ public class ResourcePile : Building
 {
     public ResourceItem Item;
 
-    public float ProductionSpeed = 0.5f;
+    private float m_ProductionSpeed = 0.5f;
+    public float ProductionSpeed
+    {
+        get => m_ProductionSpeed;
+        set
+        {
+            if(value < 0) Debug.LogError("Production speed cannot be negative");
+            else m_ProductionSpeed = value;
+        }
+    }
 
     private float m_CurrentProduction = 0.0f;
 
