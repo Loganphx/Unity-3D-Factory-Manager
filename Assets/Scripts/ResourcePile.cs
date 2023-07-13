@@ -11,6 +11,8 @@ public class ResourcePile : Building
     public ResourceItem Item;
 
     private float m_ProductionSpeed = 0.5f;
+    
+    // ENCAPSULATION
     public float ProductionSpeed
     {
         get => m_ProductionSpeed;

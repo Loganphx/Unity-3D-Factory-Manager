@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61f944bd-b819-4f80-91ff-a7ca0756cede" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.3D-Factory-Manager/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.3D-Factory-Manager/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.3D-Factory-Manager/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.3D-Factory-Manager/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ProductivityUnit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ProductivityUnit.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Optimization/Scenes/Optimization.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Optimization/Scenes/Optimization.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Optimization/Scripts/OptimUnit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Optimization/Scripts/OptimUnit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ProductivityUnit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ProductivityUnit.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.3D-Factory-Manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D-Factory-Manager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProductivityUnit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProductivityUnit.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ResourcePile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ResourcePile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TransporterUnit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TransporterUnit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControl.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +87,8 @@
       <updated>1689135550761</updated>
       <workItem from="1689135551650" duration="2969000" />
       <workItem from="1689219449833" duration="1475000" />
-      <workItem from="1689276840809" duration="2021000" />
+      <workItem from="1689276840809" duration="2076000" />
+      <workItem from="1689286818801" duration="348000" />
     </task>
     <task id="LOCAL-00001" summary="- Added SaveData to support Data Persistence of the player's selected color">
       <option name="closed" value="true" />
@@ -110,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689181565015</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- Added ProductivityUnit which Multiplies the Producitivty of the resource nodes.&#10;- Added Profiling Samples to help debug and improve performance.">
+      <option name="closed" value="true" />
+      <created>1689279023288</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689279023288</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +129,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="- Added SaveData to support Data Persistence of the player's selected color" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Added SaveData to support Data Persistence of the player's selected color" />
+    <MESSAGE value="- Added ProductivityUnit which Multiplies the Producitivty of the resource nodes.&#10;- Added Profiling Samples to help debug and improve performance." />
+    <option name="LAST_COMMIT_MESSAGE" value="- Added ProductivityUnit which Multiplies the Producitivty of the resource nodes.&#10;- Added Profiling Samples to help debug and improve performance." />
   </component>
 </project>

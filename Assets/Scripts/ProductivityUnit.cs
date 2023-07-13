@@ -1,5 +1,6 @@
 using UnityEngine;
 
+//INHERITANCE
 public class ProductivityUnit : Unit
 {
 
@@ -20,6 +21,7 @@ public class ProductivityUnit : Unit
         // end of new code
     }
 
+    // POLYMORPHISM
     public override void GoTo(Building target)
     {
         ResetProductivity();    
@@ -27,6 +29,7 @@ public class ProductivityUnit : Unit
     }
 
 
+    // POLYMORPHISM
     public override void GoTo(Vector3 position)
     {
         ResetProductivity();
